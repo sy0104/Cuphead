@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00.MainGame">
+      <UniqueIdentifier>{39f34417-36a6-4547-af92-a699256bcfba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj">
+      <UniqueIdentifier>{f88f79eb-a5f6-4681-a54e-435eddc12060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager">
+      <UniqueIdentifier>{42e1d0a5-c1dd-46b4-9dd5-16361cf1020a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{f675d93a-1cc6-4173-8d73-84b2820bc0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\01.Player">
+      <UniqueIdentifier>{2c670281-ad83-49c3-8be6-3171270e7d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\02.Bullet">
+      <UniqueIdentifier>{b104839f-53df-440f-bfdb-0ec7ab78e559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\00.CollisionMgr">
+      <UniqueIdentifier>{06cfcdaa-594b-4e86-99c6-6b6425db15a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\01.ObjMgr">
+      <UniqueIdentifier>{406644f3-42cb-4a55-a0e1-a12e6b9a4b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\02.Bullet\00.Normal_Bullet">
+      <UniqueIdentifier>{5fea4ef5-5eb4-4209-b2cf-85d5232c5eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Bitmap">
+      <UniqueIdentifier>{cf97c9c5-446e-474d-8916-e06512a817dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene">
+      <UniqueIdentifier>{75c1c307-45e6-4ea4-ba26-f5e33c8cdfc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\00.Logo">
+      <UniqueIdentifier>{44202b95-4a8f-40aa-a9a5-060128b7716d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\03.KeyMgr">
+      <UniqueIdentifier>{908c5f7a-756c-49b1-bc15-ec76caf35324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\04.ScrollMgr">
+      <UniqueIdentifier>{e56a2f3f-3277-4671-8025-1dc25f5c3a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\05.BmpMgr">
+      <UniqueIdentifier>{258d35dc-f6a7-48d3-b34a-6069bc89eccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\06.SceneMgr">
+      <UniqueIdentifier>{1d919f33-86d7-4074-8ea9-c77f188a06d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\01.Menu">
+      <UniqueIdentifier>{6858efc0-7705-4a80-9808-7165230a53b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\02.Map">
+      <UniqueIdentifier>{81c9b8de-30e2-476b-8cb8-d71d0c5dd9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\01.Player\00.Stage_Player">
+      <UniqueIdentifier>{55a3c481-1c51-471c-a758-49ccae8d72b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\01.Player\01.Overworld_Player">
+      <UniqueIdentifier>{ffe6af7f-ebf1-4345-b73c-f948acc5eec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\03.Stage_1">
+      <UniqueIdentifier>{0711887d-e30d-4965-a5ce-a8fa3bf07d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\04.Stage_2">
+      <UniqueIdentifier>{8dae39df-6fe5-477b-92fe-8dd7345528d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\05.Stage_3">
+      <UniqueIdentifier>{90703c82-81e6-4074-89df-e5c01d0a0885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\05.Button">
+      <UniqueIdentifier>{9a5e6f4f-de30-4e2d-9d71-6c98626dbf35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss">
+      <UniqueIdentifier>{2ce5b2cf-f78d-4707-bcdb-64694bc94db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots">
+      <UniqueIdentifier>{fd06bac7-0f64-4e96-8886-e5f30d753af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\00.Potato">
+      <UniqueIdentifier>{8d835cf5-1b3e-4874-b4f7-f45fab840c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot">
+      <UniqueIdentifier>{e375f412-23c2-4cb7-82d1-5f821a629b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation">
+      <UniqueIdentifier>{49def311-3934-4c4e-9477-bdf6ca7c2db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\02.King_Dice">
+      <UniqueIdentifier>{d5e46b96-8120-4070-9596-a468ff5d598d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney">
+      <UniqueIdentifier>{1de1b192-12ac-445c-ab2a-5063b6555eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\06.Test">
+      <UniqueIdentifier>{ba64daa8-8969-4df0-a413-0941fd1cadcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\00.Potato\00.Soil">
+      <UniqueIdentifier>{ad36d341-e743-453e-9276-e2f36656438e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\00.Potato\02.Earthworm">
+      <UniqueIdentifier>{85dfe2c9-91da-4369-8e8b-4128fe658b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\00.Carrot_Bullet">
+      <UniqueIdentifier>{f9103de4-6ff2-4bbd-848e-2099a65ed672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\02.Beam">
+      <UniqueIdentifier>{684ff9ab-3226-41b2-b82a-0d37f458ed05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\01.Pre_Beam">
+      <UniqueIdentifier>{e6e6e75a-b7d8-4e4e-91f5-86495dc7aab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\01.Platform">
+      <UniqueIdentifier>{24150c28-e7cf-49c4-b0ee-6ccb37d5ae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds">
+      <UniqueIdentifier>{fe374c9d-c3af-4019-a5b8-ec0458d07ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower">
+      <UniqueIdentifier>{cacbd06a-5095-40c8-b5a5-3dfffe0cad51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower\00.MF">
+      <UniqueIdentifier>{249bb659-6c5b-4055-8757-69ffa3c12aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower\01.MF_Bullet">
+      <UniqueIdentifier>{c70cceb2-8877-4b1f-8d7a-25ebc7af04cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\03.Venus_Flytrap">
+      <UniqueIdentifier>{3ca07d99-2513-4154-95e1-9de238920365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\04.Vines">
+      <UniqueIdentifier>{d008b6bd-b90b-4d7d-9ab8-4df6a3b9f574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\00.Seeds">
+      <UniqueIdentifier>{f3ce61f4-e477-4a68-8640-2bce227db54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object">
+      <UniqueIdentifier>{625a1a84-98e0-4de1-a25e-f622c2a449de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object\00.Boomerang">
+      <UniqueIdentifier>{0b68ca46-e054-453d-b393-d9664745fce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object\01.Acorn">
+      <UniqueIdentifier>{cca48713-f980-40b2-b964-f9b0efcb45ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form">
+      <UniqueIdentifier>{4d9759ba-fe81-44f8-8858-a7ea8b2a2e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\00.Main_Vine">
+      <UniqueIdentifier>{4d9269c6-2f9a-487d-ae67-b7ea1e3b25fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\01.Sub_Vine">
+      <UniqueIdentifier>{eed59c0e-1096-48cd-bae8-9af9bf6e3c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\02.Pollen">
+      <UniqueIdentifier>{59028d40-8969-4205-94a9-e5b5f3135b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects">
+      <UniqueIdentifier>{e2d0f981-5cc5-489f-9734-b56eb027038a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\03.Background">
+      <UniqueIdentifier>{8bbb021d-8ca5-44d6-b146-6256f1eecd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\02.King_Dice\00.Dice">
+      <UniqueIdentifier>{130b9247-4402-489d-8e15-45bfcd0c362e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\02.King_Dice\01.Card">
+      <UniqueIdentifier>{f44c50d5-a0d8-476f-a931-e3fa9425f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\02.King_Dice\02.Chalice">
+      <UniqueIdentifier>{2215a7e7-cc57-4d01-b5cc-1c5630516bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\02.King_Dice\02.Chalice\00.Pang">
+      <UniqueIdentifier>{da61c3d3-d542-428d-b763-7eef22e6e88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\00.Bravo">
+      <UniqueIdentifier>{53a001de-4530-4a41-9cdb-1df6834f2f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\01.Player_Jump">
+      <UniqueIdentifier>{9b4b9933-b890-43e9-a708-d701e5129add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\02.Player_Hit">
+      <UniqueIdentifier>{a7b7473c-6171-427f-82e9-8bc2e2ed1a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\03.Bullet_Effect">
+      <UniqueIdentifier>{1700cadf-666a-4bec-895d-893d6ec272a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\04.Boss_Death">
+      <UniqueIdentifier>{716322ba-6cef-4867-8e32-f2fe27718e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\05.Potato_Create">
+      <UniqueIdentifier>{da6d049d-4731-48a8-942b-ab362a06493f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\06.Cagney_Create">
+      <UniqueIdentifier>{3b25ebe3-989c-46aa-b1d9-866d8c9493ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\06.Effects\07.Acorn_Boost">
+      <UniqueIdentifier>{7e50b43b-9eea-4487-a9e0-e56bd6a02764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\07.UI">
+      <UniqueIdentifier>{12329267-2630-4fb2-b01b-fe91f6a28981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\07.UI\00.Player_Hp">
+      <UniqueIdentifier>{ed8919b5-8405-48b8-8bc1-91aa4cae94f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\01.Chomper">
+      <UniqueIdentifier>{a700714b-e094-4c8c-b0df-ccbf17624e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\07.SoundMgr">
+      <UniqueIdentifier>{4cbc0078-00f1-4100-88b8-92a5e1fdc869}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuphead.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\01.Obj\02.Bullet\00.Normal_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>소스 파일\03.Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>소스 파일\98.Manager\00.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\98.Manager\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\98.Manager\03.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>소스 파일\98.Manager\04.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>소스 파일\98.Manager\05.BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\98.Manager\06.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\04.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMap.h">
+      <Filter>소스 파일\04.Scene\02.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>소스 파일\04.Scene\01.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>소스 파일\01.Obj\05.Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01.Obj\01.Player\00.Stage_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPlayer.h">
+      <Filter>소스 파일\01.Obj\01.Player\01.Overworld_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>소스 파일\04.Scene\03.Stage_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>소스 파일\04.Scene\04.Stage_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>소스 파일\04.Scene\05.Stage_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Cagney.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\01.Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="TestStage.h">
+      <Filter>소스 파일\04.Scene\06.Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Chomper.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\01.Chomper</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\00.Seeds</Filter>
+    </ClInclude>
+    <ClInclude Include="Vine.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\04.Vines</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniFlower.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower\00.MF</Filter>
+    </ClInclude>
+    <ClInclude Include="Potato.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\00.Potato</Filter>
+    </ClInclude>
+    <ClInclude Include="Soil.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\00.Potato\00.Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="Earthworm.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\00.Potato\02.Earthworm</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrot.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot</Filter>
+    </ClInclude>
+    <ClInclude Include="CarrotBullet.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\00.Carrot_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Beam.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\02.Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="PreBeam.h">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\01.Pre_Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="MFBullet.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower\01.MF_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="VenusFlytrap.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\03.Venus_Flytrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object\00.Boomerang</Filter>
+    </ClInclude>
+    <ClInclude Include="Acorn.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object\01.Acorn</Filter>
+    </ClInclude>
+    <ClInclude Include="MainVine.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\00.Main_Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="SubVine.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\01.Sub_Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="Pollen.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\02.Pollen</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="BackSoil.h">
+      <Filter>소스 파일\01.Obj\04.Boss\03.Background</Filter>
+    </ClInclude>
+    <ClInclude Include="RealDice.h">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\00.Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\01.Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Chalice.h">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\02.Chalice</Filter>
+    </ClInclude>
+    <ClInclude Include="Pang.h">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\02.Chalice\00.Pang</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalCagney.h">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form</Filter>
+    </ClInclude>
+    <ClInclude Include="Bravo.h">
+      <Filter>소스 파일\01.Obj\06.Effects\00.Bravo</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\01.Player_Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHitEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\02.Player_Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\03.Bullet_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDeathEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\04.Boss_Death</Filter>
+    </ClInclude>
+    <ClInclude Include="PotatoCreateEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\05.Potato_Create</Filter>
+    </ClInclude>
+    <ClInclude Include="CagneyCreateEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\06.Cagney_Create</Filter>
+    </ClInclude>
+    <ClInclude Include="AcornBoostEffect.h">
+      <Filter>소스 파일\01.Obj\06.Effects\07.Acorn_Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHp.h">
+      <Filter>소스 파일\01.Obj\07.UI\00.Player_Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>소스 파일\98.Manager\07.SoundMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cuphead.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\01.Obj\02.Bullet\00.Normal_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>소스 파일\03.Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>소스 파일\98.Manager\00.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\98.Manager\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\98.Manager\03.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>소스 파일\98.Manager\04.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>소스 파일\98.Manager\05.BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\98.Manager\06.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\04.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMap.cpp">
+      <Filter>소스 파일\04.Scene\02.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>소스 파일\04.Scene\01.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>소스 파일\01.Obj\05.Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01.Obj\01.Player\00.Stage_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPlayer.cpp">
+      <Filter>소스 파일\01.Obj\01.Player\01.Overworld_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\04.Scene\03.Stage_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>소스 파일\04.Scene\04.Stage_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>소스 파일\04.Scene\05.Stage_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Cagney.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\01.Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStage.cpp">
+      <Filter>소스 파일\04.Scene\06.Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Chomper.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\01.Chomper</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\00.Seeds</Filter>
+    </ClCompile>
+    <ClCompile Include="Vine.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\04.Vines</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniFlower.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower\00.MF</Filter>
+    </ClCompile>
+    <ClCompile Include="Potato.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\00.Potato</Filter>
+    </ClCompile>
+    <ClCompile Include="Soil.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\00.Potato\00.Soil</Filter>
+    </ClCompile>
+    <ClCompile Include="Earthworm.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\00.Potato\02.Earthworm</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrot.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot</Filter>
+    </ClCompile>
+    <ClCompile Include="CarrotBullet.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\00.Carrot_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Beam.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\02.Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="PreBeam.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\00.Roots\01.Carrot\01.Pre_Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="MFBullet.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\02.Mini_Flower\01.MF_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="VenusFlytrap.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\02.Firing_Seeds\03.Venus_Flytrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object\00.Boomerang</Filter>
+    </ClCompile>
+    <ClCompile Include="Acorn.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\00.Cagney\03.Creating_Object\01.Acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalCagney.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MainVine.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\00.Main_Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="SubVine.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\01.Sub_Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="Pollen.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\01.Cagney_Carnation\01.Final_Form\02.Pollen</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="BackSoil.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\03.Background</Filter>
+    </ClCompile>
+    <ClCompile Include="RealDice.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\00.Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\01.Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Chalice.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\02.Chalice</Filter>
+    </ClCompile>
+    <ClCompile Include="Pang.cpp">
+      <Filter>소스 파일\01.Obj\04.Boss\02.King_Dice\02.Chalice\00.Pang</Filter>
+    </ClCompile>
+    <ClCompile Include="Bravo.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\00.Bravo</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\01.Player_Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHitEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\02.Player_Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\03.Bullet_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDeathEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\04.Boss_Death</Filter>
+    </ClCompile>
+    <ClCompile Include="PotatoCreateEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\05.Potato_Create</Filter>
+    </ClCompile>
+    <ClCompile Include="CagneyCreateEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\06.Cagney_Create</Filter>
+    </ClCompile>
+    <ClCompile Include="AcornBoostEffect.cpp">
+      <Filter>소스 파일\01.Obj\06.Effects\07.Acorn_Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHp.cpp">
+      <Filter>소스 파일\01.Obj\07.UI\00.Player_Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>소스 파일\98.Manager\07.SoundMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cuphead.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Cuphead.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
